@@ -323,5 +323,4 @@
     $('html, body').animate({scrollTop: 0}, 1350, "easeInOutQuint");
     return false;
   });
-
 })(jQuery);

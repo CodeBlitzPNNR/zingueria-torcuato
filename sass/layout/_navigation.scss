@@ -768,6 +768,47 @@ header .flex-parent {
   text-align: center;
   font-size: 12px;
   position: fixed;
+  bottom: -54px;
+  right: 20px;
+  line-height: 34px;
+  background-color: red;
+  box-shadow: 0px 1px 4px 0px rgba( 154, 161, 171, .4 );
+  @include transition ($all);
+  text-decoration: none;
+
+  i {
+    @include transition ($all);
+  }
+
+  a {
+    display: block;
+    color: $heading-color;
+  }
+
+  &.show {
+    bottom: 20px;
+  }
+
+  &:hover {
+    background-color: $main-color;
+    bottom: 24px;
+  }
+
+  &:hover i {
+    color: #fff;
+  }
+}
+
+/* Whatsapp logo
+-------------------------------------------------------*/
+#wpLogo {
+  display: block;
+  z-index: 100;
+  width: 400px;
+  height:400px;
+  text-align: center;
+  font-size: 12px;
+  position: fixed;
   bottom: -34px;
   right: 20px;
   line-height: 34px;
@@ -798,7 +839,6 @@ header .flex-parent {
     color: #fff;
   }
 }
-
 
 /*-------------------------------------------------------*/
 /* Nav Mobile Styles
