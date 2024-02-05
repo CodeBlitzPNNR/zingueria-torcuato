@@ -512,7 +512,7 @@ address {
   -ms-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: #55acf3;
+  color: #000;
   background-color: #fff;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -526,13 +526,12 @@ address {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none;
+  user-select: none;  
 }
 
-.btn:hover {
-  color: #000;
+.btn:hover {  
   border-color: transparent;
-  background-color: #b6dfec;
+  background-color: #fdf0b2;  
 }
 
 .btn:focus {
@@ -2460,6 +2459,13 @@ img.mfp-img {
   margin-top: 16px;
 }
 
+.intro-padding{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120dvh;
+}
+
 @media only screen and (max-width: 767px) {
   .intro__title {
     font-size: 36px;
@@ -2734,6 +2740,13 @@ img.mfp-img {
 /*-------------------------------------------------------*/
 .partners {
   padding: 36px 0;
+}
+
+.partners-padding{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40dvh;
 }
 
 .partners img {
@@ -3609,14 +3622,14 @@ a.cc-btn.cc-dismiss:focus {
   bottom: 15px;
   border-radius: 5px;
   padding: 5px;
-  background-color: white;
+  background-color: #55acf3;
   box-shadow: 4px 4px 2px -1px rgba(0, 0, 0, 0.41);
   -webkit-box-shadow: 4px 4px 2px -1px rgba(0, 0, 0, 0.41);
   -moz-box-shadow: 4px 4px 2px -1px rgba(0, 0, 0, 0.41);
 }
 
 .sticky-wp:hover {
-  background-color: #b6dfec;
+  background-color: #58543c;
 }
 
 .noShown {
