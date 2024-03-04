@@ -2753,8 +2753,7 @@ img.mfp-img {
   height: 40dvh;
 }
 
-.partners img {
-  filter: grayscale();
+.partners img {  
   max-width: 130px;
 }
 
@@ -5293,7 +5292,7 @@ iframe {
 }
 
 .footer-ul {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
 }
 
