@@ -503,8 +503,7 @@ address {
   overflow: hidden;
   display: inline-block;
   text-decoration: none;
-  text-align: center;
-  border: solid 3px #55acf3;
+  text-align: center;  
   border-radius: 15px;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -530,8 +529,10 @@ address {
 
 .btn:hover {  
   border-color: transparent;
-  background-color: #fdf0b2;  
+  background-color: #7fc1f8;
+  color: #fff;  
 }
+
 
 .btn:focus {
   outline: none;
@@ -570,6 +571,7 @@ address {
 
 .btn--color {
   background-color: #55acf3;
+  color: #fff;
 }
 
 .btn--color:hover {
