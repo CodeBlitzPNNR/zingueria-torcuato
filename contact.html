@@ -273,11 +273,28 @@
 			</div>
 
 		</div> <!-- end content wrapper -->
-
-		<!-- WP WIDGET -->
-		<div class="sticky-wp noShown animated animatedFadeInUp fadeInUp" id="wpLogo">
-			<a target="_blank" href="https://wa.me/5491153088311"><img src="./img/whatsapp-logo.svg" alt="Whatsapp logo"></a>
-		</div>
+		
+			<!-- WP WIDGET -->
+			<div class="sticky-wp noShown animated animatedFadeInUp fadeInUp" id="wpLogo">
+				<a target="_blank" href="https://wa.me/5491153088311"><img src="./img/whatsapp-logo.svg" alt="Whatsapp logo"></a>
+			</div>
+		
+	
+			<script>
+				window.addEventListener('scroll',() => {
+					const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+					const scrolled = window.scrollY;
+					
+					if (scrolled > 50) {
+						document.getElementById('wpLogo').classList.add('shown');
+						document.getElementById('wpLogo').classList.add('animatedIn');					
+						document.getElementById('wpLogo').classList.remove('animatedOut');					
+					} else {					
+						document.getElementById('wpLogo').classList.remove('animatedIn');					
+						document.getElementById('wpLogo').classList.add('animatedOut');					
+					}
+				})
+			</script>
 
 	</main> <!-- end main wrapper -->
 
