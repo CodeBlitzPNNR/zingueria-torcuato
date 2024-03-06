@@ -5226,6 +5226,13 @@ iframe {
   text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.753);
 }
 
+@media screen and (max-width: 572px) {
+  .tp-caption.hero-text {        
+    font-weight: 700;    
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.753);
+  }
+}
+
 .shadow {
   text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.753);
 }
