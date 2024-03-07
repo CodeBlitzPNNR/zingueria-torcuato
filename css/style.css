@@ -6741,3 +6741,37 @@ dd {
 }
 
 /*# sourceMappingURL=style.css.map */
+@media screen and (max-width: 991px) {
+  .img-custom {
+    max-width: 70%;
+  }
+
+  .intro-custom {
+    min-height: 120dvh !important;
+    height: auto !important;  
+  }
+  
+  .img-custom {
+    margin: auto;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .intro-img {  
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-custom {    
+    min-height: 60px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .partners-custom {
+    min-height: 40dvh !important;
+    height: auto;
+  }
+}
+
